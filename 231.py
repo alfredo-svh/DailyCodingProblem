@@ -19,8 +19,8 @@ def rearr(s):
     
     while (1):
         done = True
-        for char, _  in c.most_common():
-            if c[char] != 0:
+        for char, cnt  in c.most_common():
+            if cnt != 0:
                 res +=char
                 c[char] -= 1
                 done = False
