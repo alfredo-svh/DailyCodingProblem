@@ -1,3 +1,3 @@
 # DailyCodingProblem
 
-Select problem solutions from [Daily Coding Problem](https://www.dailycodingproblem.com/)
+Select solutions of problems by [Daily Coding Problem](https://www.dailycodingproblem.com/)
