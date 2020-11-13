@@ -17,26 +17,22 @@ def helperDict(dct):
     
     for k, v in dct.items():
         json += jsonify(k) + ": "
-        
         json += jsonify(v) + ", "
         
-    
     return json[:-2]
 
 
 def helperList(lst):
-    
     json = ''
     
     for v in lst:
         json += jsonify(v) + ", "
         
-    
     return json[:-2]
 
 
 def jsonify(ip):  
-      
+    
     if type(ip) is int or type(ip) is float:
         return str(ip)
     
