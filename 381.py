@@ -21,9 +21,6 @@ def base64(hexStr):
     if extra > 0:
         binStr += '0' * (24 - extra)
         
-    print(binStr)
-    print(extra)
-        
     for i in range(0, len(binStr), 6):
         # decimal representation of current b64 character
         curChar = int(binStr[i:i+6], 2)
